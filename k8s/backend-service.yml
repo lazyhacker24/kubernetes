@@ -6,7 +6,7 @@ spec:
   selector:
     app: express-backend
   ports:
-  - protocol: TCP
-    port: 3000
-    targetPort: 3000
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
   type: ClusterIP
